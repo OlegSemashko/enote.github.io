@@ -8,11 +8,11 @@ html, body {
 
 .container-fluid {
   position: relative;	
-  top: 7.77vh;
+  top: 13.8771vh;
   position: relative;
   max-width: inherit;
-  padding-right: 11.89vh;
-  padding-left: 11.89vh;
+  padding-right:16.10169vh;
+  padding-left: 15.8898vh;
 }
 
 #header {
@@ -72,7 +72,7 @@ html, body {
 }
 
 #cont {
-    margin-top: 160px;
+    margin-top: 9.6398vh;
     margin-bottom: 46px;
 }
 
@@ -121,7 +121,7 @@ html, body {
 
 #footer {
     
-  margin-top: 200px;
+  margin-top: 16.313vh;
   width: 300px;
   height: 22px;
   font-family: Roboto;

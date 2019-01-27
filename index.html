@@ -1,1 +1,124 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+
+    <title>Enote.by</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    
+</head>
+<body data-vide-bg="./media/video">
+
+<!--main container-->
+<div class="container-fluid">
+
+<!--nav-->
+  <div class="row  row align-items-center" id="header">
+  
+  <!--logo-->
+    <div class="col">
+     <div id="Enoteby"><strong>Enote.by</strong></div>
+    </div>
+    
+    <!--number-->
+    <div class="col col-lg-2 tel" id="number">
+      <a href="tel:+375339038122" >+ 375 33 903 81 22</a>
+    </div
+
+    <!--button modal form -->
+    <div class="col col-lg-2">
+      <button type="button" class="btn btn-warning" id="headButton" data-toggle="modal" data-target="#modalContactForm">
+       <div id="headButtonText">Оставить заявку</div>
+      </button>
+      
+    <!--modal form-->
+    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Write to us</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <i class="fas fa-user prefix grey-text"></i>
+          <input type="text" id="form34" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form34">Your name</label>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class="fas fa-envelope prefix grey-text"></i>
+          <input type="email" id="form29" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form29">Your email</label>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class="fas fa-tag prefix grey-text"></i>
+          <input type="tel" id="form32" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form32">You phone number</label>
+        </div>
+
+        <div class="md-form">
+          <i class="fas fa-pencil prefix grey-text"></i>
+          <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+          <label data-error="wrong" data-success="right" for="form8">Your message</label>
+        </div>
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-unique">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+    
+  </div>
+  
+  <!--content-->
+   <div class="row" id="cont">
+    <div class="col" id="contH">
+     <div id="styletext"><b>Enote</b> занимается  разработкой<br> сайтов, продвижением соц.сетей,<br> медиаконтентом</div>
+    </div>
+    <div class="w-100"></div>
+    <div class="col" id="contP">
+     <div>Сейчас мы разработываем свой новый сайт.</br> Оставьте заявку и мы свяжемся с вами</div>
+    </div>
+  </div>
+  
+   <!-- button -->
+   <div class="row">
+    <div class="col-8">
+      <button type="button" class="btn btn-warning" id="buttonCont" >We are One!</button>
+      <button type="button" class="btn btn-warning" id="buttonCont1">About</button>
+    </div>
+  </div>
+  <!--footer-->
+  <div class="row" id="footer">
+   <div class="col align-self-start">
+     ©2018 Enote.by
+   </div>
+  </div>
+</div>
+
+
+
+
+<!--jQuery-->
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<!--Vide-->
+<script src="./src/jquery.vide.js"></script>
+<!--Bootstrap depenced link-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</body>
+</html>
